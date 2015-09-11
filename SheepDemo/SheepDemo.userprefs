@@ -1,0 +1,33 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Properties\MovingObject.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Grid\GridUtils.cs" Line="31" Column="5" />
+      <File FileName="Assets\Scripts\Grid\GridObject.cs" Line="92" Column="8" />
+      <File FileName="Assets\Scripts\Properties\MovingObject.cs" Line="62" Column="3" />
+      <File FileName="Assets\Scripts\Properties\PlayerTriggerObject.cs" Line="22" Column="40" />
+      <File FileName="Assets\Scripts\PathFinder.cs" Line="115" Column="115" />
+      <File FileName="Assets\Scripts\Properties\PlayerObject.cs" Line="67" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>this</Value>
+          <Value>IsMoving()</Value>
+          <Value>-1+(place%3)</Value>
+          <Value>-1+place/3</Value>
+          <Value>_path</Value>
+          <Value>((IGridObject)_objects[idx])!=null</Value>
+          <Value>_coords.Count</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\Scripts\IsoGrid.cs" line="34" offsetX="515" offsetY="693" expression="_cells" liveUpdate="False" />
+    <Watch file="Assets\Scripts\MovingObject.cs" line="61" offsetX="695" offsetY="1260" expression="newGridPos" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

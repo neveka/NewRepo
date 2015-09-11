@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: fa753a1dcec04ea40925cba412e09092
+timeCreated: 1441878050
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sheeps_0
+    21300002: sheeps_1
+    21300004: sheeps_2
+    21300006: sheeps_3
+    21300008: sheeps_4
+    21300010: sheeps_5
+    21300012: sheeps_6
+    21300014: sheeps_7
+    21300016: sheeps_8
+    21300018: sheeps_9
+    21300020: sheeps_10
+    21300022: sheeps_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sheeps_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 810
+        width: 165
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 810
+        width: 165
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 806
+        width: 165
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 638
+        width: 181
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 645
+        width: 163
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 638
+        width: 199
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 162
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 464
+        width: 162
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 466
+        width: 162
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 304
+        width: 162
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 305
+        width: 162
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheeps_11
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 307
+        width: 162
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

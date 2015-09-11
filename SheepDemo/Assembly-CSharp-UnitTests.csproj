@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1964D57-9109-293C-4406-BF9DD5DE09AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ExpectedExceptionData.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\IApplyToTest.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\IParameterDataSource.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\IPropertyBag.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ITest.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ITestAssemblyBuilder.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ITestAssemblyRunner.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ITestCaseData.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ITestCaseSource.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ITestFilter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ITestListener.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ITestResult.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\IXmlNodeBuilder.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\PropertyEntry.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\ResultState.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\RunState.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\TestOutput.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Api\TestStatus.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Assert.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\AssertionHelper.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Assume.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\CategoryAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\CombinatorialAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\CultureAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\DataAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\DescriptionAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\ExpectedExceptionAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\ExplicitAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\IgnoreAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\IncludeExcludeAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\MaxTimeAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\NUnitAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\PairwiseAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\PlatformAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\PropertyAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\RandomAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\RangeAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\RepeatAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\SequentialAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\SetCultureAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\SetUICultureAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\SetUpAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\TearDownAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\TestAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\TestCaseAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\TestCaseSourceAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\TestFixtureAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\TestFixtureSetUpAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\TestFixtureTearDownAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\TestModificationAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\ValueSourceAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Attributes\ValuesAttribute.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\AllItemsConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\AndConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\AssignableFromConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\AssignableToConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\AttributeConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\AttributeExistsConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\BasicConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\BinaryConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\BinarySerializableConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\CollectionConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\CollectionContainsConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\CollectionEquivalentConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\CollectionItemsEqualConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\CollectionOrderedConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\CollectionSubsetConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\CollectionTally.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ComparisonAdapter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ComparisonConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Constraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ConstraintBuilder.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ConstraintExpression.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ConstraintExpressionBase.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ConstraintFactory.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ContainsConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\EmptyCollectionConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\EmptyConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\EmptyStringConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\EndsWithConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\EqualConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\EqualityAdapter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ExactCountConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ExactTypeConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ExceptionTypeConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\FalseConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\FloatingPointNumerics.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\GreaterThanConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\GreaterThanOrEqualConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\IResolveConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\InstanceOfTypeConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\LessThanConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\LessThanOrEqualConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\MessageWriter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\MsgUtils.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\NUnitComparer.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\NUnitEqualityComparer.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\NaNConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\NoItemConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\NotConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\NullConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\NullOrEmptyStringConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Numerics.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\AndOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\AttributeOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\BinaryOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\CollectionOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\ConstraintOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\ExactCountOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\NotOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\OrOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\PrefixOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\PropOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\SelfResolvingOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\ThrowsOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Operators\WithOperator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\OrConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\PathConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\PrefixConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\PropertyConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\PropertyExistsConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\RangeConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\RegexConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ResolvableConstraintExpression.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\SameAsConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\SamePathConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\SamePathOrUnderConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\SomeItemsConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\StartsWithConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\StringConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\SubstringConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ThrowsConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ThrowsNothingConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\Tolerance.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\ToleranceMode.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\TrueConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\TypeConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\UniqueItemsConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Constraints\XmlSerializableConstraint.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Contains.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Env.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Exceptions\AssertionException.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Exceptions\IgnoreException.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Exceptions\InconclusiveException.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Exceptions\SuccessException.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Extensibility\IParameterDataProvider.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Extensibility\ISuiteBuilder.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Extensibility\ITestCaseBuilder.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Extensibility\ITestCaseProvider.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\GlobalSettings.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Guard.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Has.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\IExpectException.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\AssemblyHelper.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Builders\CombinatorialStrategy.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Builders\CombinatorialTestCaseProvider.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Builders\CombiningStrategy.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Builders\DataAttributeTestCaseProvider.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Builders\NUnitTestCaseBuilder.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Builders\NUnitTestFixtureBuilder.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Builders\PairwiseStrategy.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Builders\ParameterDataProvider.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Builders\SequentialStrategy.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\CommandDecoratorList.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\CommandRunner.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\CommandStage.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\DelegatingTestCommand.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\ExpectedExceptionCommand.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\ICommandDecorator.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\MaxTimeCommand.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\RepeatedTestCommand.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\SetUpTearDownCommand.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\SkipCommand.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\TestCommand.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\TestMethodCommand.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Commands\TestSuiteCommand.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\CultureDetector.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\ExceptionHelper.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Extensibility\TestCaseProviders.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Filters\AndFilter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Filters\CategoryExpression.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Filters\CategoryFilter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Filters\NotFilter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Filters\OrFilter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Filters\SimpleNameFilter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\InvalidTestFixtureException.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\MethodHelper.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\NUnitException.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\NUnitLiteTestAssemblyBuilder.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\NUnitLiteTestAssemblyRunner.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\OSPlatform.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\ParameterSet.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\PlatformHelper.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\PropertyBag.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\PropertyNames.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Randomizer.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Reflect.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Results\TestCaseResult.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Results\TestResult.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Results\TestSuiteResult.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\RuntimeFramework.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\StackFilter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\TestExecutionContext.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\TestFilter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\TestFixtureBuilder.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\TestListener.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Tests\ParameterizedFixtureSuite.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Tests\ParameterizedMethodSuite.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Tests\Test.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Tests\TestAssembly.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Tests\TestFixture.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Tests\TestMethod.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\Tests\TestSuite.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\TextMessageWriter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\TypeHelper.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Internal\XmlHelper.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Is.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Iz.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\ListMapper.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\MessageMatch.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\ObjectList.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Runner\CommandLineOptions.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Runner\ConsoleWriter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Runner\ResultSummary.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Runner\TcpWriter.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Runner\TextUI.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\SpecialValue.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\TestCaseData.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\TestContext.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\Throws.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NUnitLiteUnityRunner.cs" />
+    <Compile Include="Assets\Plugins\NUnitLite\NunitStreamUI.cs" />
+    <Compile Include="Assets\Plugins\Test\CsharpPluginTestDriver.cs" />
+    <Compile Include="Assets\Plugins\Test\TestInPluginsPrimer.cs" />
+    <None Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\CHANGES.txt" />
+    <None Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\LICENSE.txt" />
+    <None Include="Assets\Plugins\NUnitLite\NUnitLite-0.7.0\README.txt" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
